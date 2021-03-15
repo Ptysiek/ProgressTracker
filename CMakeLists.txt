@@ -18,7 +18,7 @@ set(THIS_PROJECT_TESTS_DIRECTORIES
 set(THIS_PROJECT_FLAGS
     -Wall
     -Werror 
-    #-Weffc++   #TooMuch
+    -Weffc++
     -Wextra
     -pedantic
     -Wconversion 
@@ -27,11 +27,11 @@ set(THIS_PROJECT_FLAGS
 
 # add all executables
 add_executable(${PROJECT_NAME}
-    main.cpp
+    source/main.cpp
     ${THIS_PROJECT_SRC_DIRECTORIES}
 )
 add_executable(${PROJECT_NAME}-ut 
-    catch_main.cpp
+    source/catch_main.cpp
     ${THIS_PROJECT_SRC_DIRECTORIES}
     ${THIS_PROJECT_TESTS_DIRECTORIES}
 )
