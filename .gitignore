@@ -9,8 +9,7 @@
 /build/Makefile
 
 # Vim Tools:
-./plugins
-./plugins/*
-./source/plugins/*
+/plugins/*
+/source/plugins/*
 tags
 
