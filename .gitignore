@@ -1,0 +1,13 @@
+
+# Private Notes:
+/.notes/*
+
+# Cmake Stuff:
+/build/CMakeFiles/*
+/build/CMakeCache.txt
+/build/cmake_install.cmake
+/build/Makefile
+
+# Vim Tools:
+tags
+
